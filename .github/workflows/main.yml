@@ -56,7 +56,7 @@ jobs:
             push: true
             tags: frozenfish/infra_actions:latest
 
-# деплой проекта
+# деплой проекта.
   deploy:
     runs-on: ubuntu-latest
     needs: build_and_push_to_docker_hub
